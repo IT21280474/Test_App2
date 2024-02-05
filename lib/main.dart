@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.black,
           body: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
                 width: double.infinity,
